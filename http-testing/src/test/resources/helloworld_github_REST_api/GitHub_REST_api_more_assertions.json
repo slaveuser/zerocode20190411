@@ -1,0 +1,19 @@
+{
+    "scenarioName": "GitHub GET API and more @@Alex",
+    "steps": [
+        {
+            "name": "get_github_server_details",
+            "url": "/users/albertosipov",
+            "operation": "GET",
+            "request": {
+            },
+            "assertions": {
+                "status": 200,
+                "body": {
+                    "login": "albertosipov",
+                    "id": 36400587
+                }
+            }
+        }
+    ]
+}
